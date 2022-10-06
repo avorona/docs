@@ -8,8 +8,8 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 3.6.2"
-gem "json"
+gem "jekyll", "~> 3.9.0"
+gem "json", ">= 2.3.0"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 # gem "minima", "~> 2.0"
@@ -20,8 +20,8 @@ gem "json"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.6"
-  gem "github-pages"
+  gem "jekyll-feed", "~> 0.9", ">= 0.9.2"
+  gem "github-pages", ">= 224"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
